@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: black;
+    
+    
 }
 
 body {
@@ -19,12 +20,13 @@ body {
 h1,h2 {
     font-family: Karla, sans-serif;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #161a1d
 
 }
 
 #main-logo {
     float: left;
+    margin-left: 3em;
     font-size: 2.2rem;
     letter-spacing: 0.1875;
 }
@@ -50,7 +52,7 @@ h1,h2 {
 
 #menu a {
     text-decoration: none;
-    color: #ffffff;
+    color:#161a1d;
        
 }
 
@@ -62,3 +64,43 @@ h1,h2 {
     border-bottom: 0.55rem solid #e5383b;
 }
 
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#cover-text, #cover-text h2 {
+    color:#ffffff;
+
+}
+
+#hero-image {
+    height: 500px;
+    background: url('../images/Abbey-Gardens-long\ image.jpg') no-repeat center center;
+    width: 100%;
+    background-size: cover;
+}
+
+#cover-text {
+    font-size: 1.5rem;
+    font-family: Spectral, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+
+    width: 18.75rem;
+    height: 18.75.5rem;
+
+    padding-top: 0.625rem;
+    padding-left: 0.625rem;
+    background-color: rgba(229, 56, 59, .7);
+   
+    bottom: 6rem;
+    right: 9.375rem;
+
+    position: absolute;
+
+}
