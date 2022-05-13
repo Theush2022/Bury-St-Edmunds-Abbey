@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: black;
 }
 
 body {
@@ -11,6 +12,9 @@ body {
     font-weight: 100;
     color: #161a1d;
 }
+
+
+/* headings and logo */
 
 h1,h2 {
     font-family: Karla, sans-serif;
@@ -21,5 +25,40 @@ h1,h2 {
 
 #main-logo {
     float: left;
-    font-size: 3rem;
+    font-size: 2.2rem;
+    letter-spacing: 0.1875;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 1.2rem;
+    letter-spacing: 0.25rem;
+
+}
+
+#menu, #main-logo {
+    line-height: 4.375rem;
+
+}
+
+#menu li {
+    float: right;
+    margin-right: 3rem;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffffff;
+       
+}
+
+#menu a:hover {
+    color: #e5383b;
+}
+
+.active {
+    border-bottom: 0.55rem solid #e5383b;
+}
+
