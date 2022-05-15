@@ -92,7 +92,7 @@ h1,h2 {
     letter-spacing: 0.25rem;
 
     width: 18.75rem;
-    height: 18.75.5rem;
+    height: 18.75rem;
 
     padding-top: 0.625rem;
     padding-left: 0.625rem;
@@ -104,3 +104,33 @@ h1,h2 {
     position: absolute;
 
 }
+
+/* footer */
+
+footer {
+
+    height: 150px;
+    background: #e5383b;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+
+}
+
+.social-networks i {
+    font-size: 2rem;
+    margin: 1%;
+    padding: 5%;
+    color:#ffffff;
+
+}
+
+
+
+
+
