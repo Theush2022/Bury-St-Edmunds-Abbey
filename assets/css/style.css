@@ -12,6 +12,7 @@ body {
     font-family: Spectral, sans-serif;
     font-weight: 100;
     color: #161a1d;
+    background-color: #f5f3f4;
 }
 
 
@@ -33,9 +34,16 @@ h1,h2 {
 
 /* navigation links */
 
+nav {
+    position:sticky;
+    top:0;
+    }
+
 #menu {
     font-size: 1.2rem;
     letter-spacing: 0.25rem;
+    position:sticky;
+    top:0;
 
 }
 
@@ -105,6 +113,116 @@ h1,h2 {
 
 }
 
+/*Why Visit*/
+
+#why-header {
+    text-align: center;
+}
+
+
+.where-to-visit {
+    margin: 15px 30px;
+    height: 400px;
+
+}
+
+#abbey-ruins-left {
+    background: url("../images/Bury-St-Edmunds-Ruins.jpg") no-repeat center center;
+    float: left;
+    background-size: contain;
+    width: 50%;
+    height: 400px;
+
+    
+
+}
+
+
+#abbey-text {
+   float: right;
+   width: 50%;
+    text-align: center;
+    background-color: #e5383b;
+    border-radius: 30px;
+    font-size: 1.5em;
+    margin-top: 120px;
+
+
+
+}
+
+#gardens-right {
+    background: url("../images/Bury-St-Edmunds-Abbey-Gardens.jpg") no-repeat center center;
+    float: right;
+    height: 400px;
+    width:50% ;
+    background-size: contain;
+
+}
+
+
+#gardens-text {
+    float: right;
+   width: 50%;
+    text-align: center;
+    background-color: #e5383b;
+    border-radius: 30px;
+    font-size: 1.5em;
+    margin-top: 120px;
+}
+
+#cathedral-left {
+
+    background: url("../images/St-Edmundsbury-Cathedral.jpg") no-repeat center center;
+
+    float: left;
+    height: 400px;
+    width: 50%;
+    background-size: contain;
+
+}
+
+#cathedral-text {
+
+    float: right;
+    width: 50%;
+     text-align: center;
+     background-color: #e5383b;
+     border-radius: 30px;
+     font-size: 1.5em;
+     margin-top: 120px;
+
+}
+
+/* Map & Contact */
+
+#map-and-contact {
+    height: 400px;
+    margin: 15px 30px;
+    
+}
+
+#map {
+    float: left;
+    height: 400px;
+    width: 50%;
+    contain: content;
+    
+}
+
+#contact {
+    float: right;
+    height: 400px;
+    width: 50%;
+    contain: content;
+    text-align: center;
+    font-family: Karla, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+
+
 /* footer */
 
 footer {
@@ -126,7 +244,7 @@ footer {
     font-size: 2rem;
     margin: 1%;
     padding: 5%;
-    color:#ffffff;
+    color:#f5f3f4;
 
 }
 
