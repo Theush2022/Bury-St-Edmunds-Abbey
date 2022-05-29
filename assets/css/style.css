@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font: 10px;
     
     
 }
@@ -117,84 +118,26 @@ nav {
 
 #why-header {
     text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
 }
 
 
 .where-to-visit {
-    margin: 15px 30px;
-    height: 400px;
-
-}
-
-#abbey-ruins-left {
-    background: url("../images/Bury-St-Edmunds-Ruins.jpg") no-repeat center center;
-    float: left;
-    background-size: contain;
-    width: 50%;
-    height: 400px;
-
-    
-
-}
-
-
-#abbey-text {
-   float: right;
-   width: 50%;
+    font-size: 1.2rem;
+    margin: 4rem;
+    padding-top: 0px;
+    color: #0a0a0a;
     text-align: center;
-    background-color: #e5383b;
-    border-radius: 30px;
-    font-size: 1.5rem;
-    margin-top: 120px;
-
-
-
-}
-
-#gardens-right {
-    background: url("../images/Bury-St-Edmunds-Abbey-Gardens.jpg") no-repeat center center;
-    float: right;
-    height: 400px;
-    width:50% ;
-    background-size: contain;
-
-}
-
-
-#gardens-text {
-    float: right;
-   width: 50%;
-    text-align: center;
-    background-color: #e5383b;
-    border-radius: 30px;
-    font-size: 1.5rem;
-    margin-top: 120px;
-}
-
-#cathedral-left {
-
-    background: url("../images/St-Edmundsbury-Cathedral.jpg") no-repeat center center;
-
-    float: left;
-    height: 400px;
-    width: 50%;
-    background-size: contain;
-
-}
-
-#cathedral-text {
-
-    float: right;
-    width: 50%;
-     text-align: center;
-     background-color: #e5383b;
-     border-radius: 30px;
-     font-size: 1.5rem;
-     margin-top: 120px;
-
 }
 
 /* Map & Contact */
+
+#where-to-find-header {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
 
 #map-and-contact {
     height: 400px;
@@ -247,6 +190,27 @@ footer {
     color:#f5f3f4;
 
 }
+
+/* For screen sizes 768px and down*/
+
+@media (max-width: 768px) {
+    #cover-text {
+      display: none;
+    }
+
+/* For screen sizes 410px and down*/
+
+  }
+  @media (max-width: 410px) {
+    #menu li {
+      font-size: 2rem;
+      margin-right: 2rem;
+    }
+    #main-logo {
+      font-size: 1.7rem;
+    }
+  }
+  
 
 
 
