@@ -14,7 +14,7 @@ This website shows three main areas of potential interest for tourists. The thre
 
 ### Strategy Plane
 
-The website is quite simple and direct with ease of use for visitors.
+The website is quite simple and direct for ease of use for visitors.
 
 ### Scope Plane
 
@@ -24,15 +24,15 @@ In this project You can find the following features:
 
 - Home page showing firstly a hero image of the Abbey Gardens and subsequent images of the potential tourist spots with brief descriptions. Also included is a map with a location and tourist information contact details.
 
-IMAGE
+![My Image](assets/images/home-page.jpg)
 
 - Gallery page showing various images of of tourist spots for users to look at.
 
-IMAGE
+![My Image](assets/images/gallery.jpg)
 
-- Contact Us page allowing users to contact with any questions
+- Sign Up page allowing users to receive latest Bury St Edmunds Abbey news/updates.
 
-IMAGE
+![My Image](assets/images/sign-up.jpg)
 
 ### Structure Plane
 
@@ -47,9 +47,7 @@ Initially designed for desktop/laptop usage but adapted for mobile & tablet user
 
 * Colors
 
-The navigation part of the webiste was kept quite clear and bold by using #161a1d with font on a  
-
-For navigation and footer part of the website the main aim was the big contrast it was the reason why I used #0a0a0a/black on a light background #f5f3f4
+I wanted the webiste to appear both welcoming and gentle with a light grey background #f5f3f4 but with some bold coloring for contrast. I used light-red #e5383b underlining the active pages on the navagation menu and for som styling on the sign up page. I went for a very dark grey #161a1d for the headers and text.
 
 * Typography
 
@@ -70,6 +68,7 @@ I used two font types from https://fonts.google.com/ with pairing advice from ht
 
 * Interactive time-line of historical events
 * Drone footage of the Abbey
+* Image compression for quicker load times
 
 ## Technologies Used
 
@@ -85,7 +84,8 @@ I used two font types from https://fonts.google.com/ with pairing advice from ht
 - Code Institute course and challenge tasks.
 - Code Institute Slack threads for support
 - Code Institute Mentor for guidance and support.
-- https://www.burystedmunds-tc.gov.uk for Abbey images
+- https://www.burystedmunds-tc.gov.uk for Abbey images.
+- https://coolors.co for color ideas.
 
 ## Testing
 
@@ -95,22 +95,25 @@ Website fully tested on Google Chrome, Microsoft Edge, Opera & Safari & various 
 
 ### Validators
 
-Checks performed on website with no issues by W3C HTML validator -
-
-IMAGE
-
-Checks performed on website with no issues by W3C CSS validator -
-
-IMAGE
+Checks performed on website with no issues by W3C HTML & CSS validators -
 
 ### Responsiveness
 
-By using Google Dev tools I checked the responsiveness on other devices including mobile devices. As a result, my home page cover text was adjusted in the css stylesheet to suit smaller screen sizes.
+By using Google Dev tools I checked the responsiveness on other devices othern than desktop including mobile devices. As a result, my home page cover text was adjusted in the css stylesheet to suit smaller screens.
+
+Example audits via lighthouse:
+
+Desktop Audit
+
+![My Image](assets/images/lighthouse-desktop.jpg)
+
+Mobile Audit
+
+![My Image](assets/images/lighthouse-mobile.jpg)
 
 ## Version control
 
 Two repositories were used for this websites development. Gitpod for local purposes and Github for a remot/background repository.
-
 
 I managed the versions with the followung process:
 - Repository created in Github
@@ -125,8 +128,8 @@ I managed the versions with the followung process:
 
 Steps for deployment/publishing on the GitHub were as follow:
     
-    1. **"Settings"** on the repository
-    2. **"Pagesce"** of "GitHub Pages" selected *master for Branch* and saved it
-    3. The website was published on GitHub Pages and the link was provided in the same section.
+    1. "Settings" on the project repository
+    2. "Pages" then scroll to source then ensure "Main" selected as branch then save.
+    3. The website is then published and the link made available on the same Github page.
 
 

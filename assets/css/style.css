@@ -23,6 +23,12 @@ h1,h2 {
     color: #161a1d
 }
 
+h2 {
+    font-family: Spectral, sans-serif;
+    text-transform: uppercase;
+    color: #161a1d
+}
+
 #main-logo {
     float: left;
     margin-left: 2rem;
@@ -39,9 +45,10 @@ nav {
 
 #menu {
     font-size: 1.2rem;
-    letter-spacing: 0.25rem;
-    position:sticky;
+    letter-spacing: 0.20rem;
+    position:static;
     top:0;
+    height: 40px;
 }
 
 #menu, #main-logo {
@@ -70,13 +77,13 @@ nav {
 /* hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
 }
 
 #cover-text, #cover-text h2 {
-    color:#ffffff;
+    color:#f5f3f4;
     font-family: Spectral, sans-serif;
 }
 
@@ -155,33 +162,12 @@ nav {
     font-family: Karla, sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
-}
-
-/* footer */
-
-footer {
-    height: 150px;
-    background: #e5383b;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 2rem;
-    margin: 1%;
-    padding: 5%;
-    color:#f5f3f4;
+    
 }
 
 /*Contact Form*/
 
-#contact-us-header {
+#sign-up-header {
     text-align: center;
     font-size: 2rem;
     text-decoration: underline;
@@ -189,29 +175,27 @@ footer {
 
 }
 
-#contact-form { 
+#sign-up-form { 
     display: block;
     text-align: center;
 }
 
 .form {
     color: #fff;
-    background-color:rgba(60, 60, 60, 0.6);
+    background-color:#b1a7a6;
     width: 40%;
     padding: 30px;
     display: inline-block;
-    margin-bottom: 30px;
-    
-    
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
     
 .text-input {
-    background: transparent;
-    color: #fafafa;
+    color: #161a1d;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #e5383b;
     border-radius: 2px;
 }
     
@@ -239,9 +223,9 @@ footer {
 
 #gallery-header {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: underline;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 #gallery-images {
@@ -254,6 +238,28 @@ footer {
 
 #gallery-images > img {
         width: 100%;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    background: #e5383b;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 2rem;
+    margin: 1%;
+    padding: 5%;
+    color:#f5f3f4;
 }
 
 /* For screen sizes 768px and down*/
