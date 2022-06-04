@@ -273,10 +273,10 @@ footer {
         width: 66%;
     }
         
-
+}
 /* For screen sizes 410px and down*/
 
-  }
+  
   @media (max-width: 410px) {
     #menu li {
       font-size: 1.2rem;
