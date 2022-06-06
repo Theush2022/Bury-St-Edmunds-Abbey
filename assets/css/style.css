@@ -118,7 +118,6 @@ nav {
     margin-top: 1.5rem;
 }
 
-
 .where-to-visit {
     font-size: 1.2rem;
     margin: 1rem;
@@ -174,7 +173,6 @@ nav {
     margin-bottom: 2rem;
     width: 100%;
     contain: content;
-
 }
 
 #sign-up-form { 
@@ -294,7 +292,7 @@ footer {
         width: 100%;
     }
     #contact {
-        height: 200px;
+        height: 250px;
         width: 100%;
         margin-top: 2rem;
     }
@@ -302,14 +300,12 @@ footer {
     .where-to-visit img {
         width: 66%;
     }
-
     .form { width: 60%;
     }
 }
 
 /* For screen sizes 410px and down*/
 
-  
   @media (max-width: 410px) {
     #menu li {
       font-size: 1rem;
@@ -318,5 +314,4 @@ footer {
     #main-logo {
       font-size: 1.7rem;
     }
-    
   }
