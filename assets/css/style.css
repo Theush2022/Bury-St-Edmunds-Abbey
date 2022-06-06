@@ -136,14 +136,14 @@ nav {
     text-align: center;
     font-size: 2rem;
     text-decoration: underline;
-    bottom: 1rem;
     contain: content;
+    margin-bottom: 2rem;
 }
 
 #map-and-contact {
     height: 400px;
     width: 100%;
-    margin: 3rem;
+    margin-bottom: 2rem;
 }
 
 #map {
@@ -243,8 +243,9 @@ nav {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100%;
     background: #e5383b;
+    clear: both;
 }
 
 .social-networks {
@@ -268,6 +269,15 @@ footer {
     #cover-text {
       display: none;
     }
+    #map {
+        height: 400px;
+        width: 100%;
+    }
+    #contact {
+        height: 200px;
+        width: 100%;
+        margin-top: 2rem;
+    }
 
     .where-to-visit img {
         width: 66%;
@@ -285,4 +295,5 @@ footer {
     #main-logo {
       font-size: 1.7rem;
     }
+    
   }
